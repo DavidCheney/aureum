@@ -1,0 +1,44 @@
+.page-header {
+    height: 2em;
+    background-color: #24303F;
+    padding: 1.5em 0 .5em 0;
+}
+.page-subhead {
+    height: 1em;
+    background-color: #24303F;
+    padding: 0 1.3em 1em;
+}
+
+[class*='col-'] {
+    float: left;
+    text-align: center;
+}
+.col-1-12 {
+    width: 8.3333%;
+}
+.col-4-12 {
+    width: 33.3333%;
+}
+
+h1 {
+    margin: 0;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+a {
+    color: #428BCA;
+    text-decoration: none;
+}
+a:visited, a:link {
+    color: #607D8B;
+}
+a:hover {
+    color: #039be5;
+}
+a.router-link-active {
+    color: #039be5;
+}
