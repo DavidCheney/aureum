@@ -1,0 +1,76 @@
+// FONTS
+
+// AVENIR
+@font-face {
+  font-family: 'Avenir';
+  src: url('/assets/AvenirLTStd-Light.eot');
+  src: url('/assets/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/AvenirLTStd-Light.woff') format('woff'),
+  url('/assets/AvenirLTStd-Light.ttf') format('truetype'),
+  url('/assets/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+}
+@font-face {
+  font-family: 'AvenirRoman';
+  src: url('/assets/AvenirLTStd-Roman.eot');
+  src: url('/assets/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+  url('/assets/AvenirLTStd-Roman.woff') format('woff'),
+  url('/assets/AvenirLTStd-Roman.ttf') format('truetype'),
+  url('/assets/AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+}
+
+$font-stack: Avenir, Helvetica, sans-serif;
+$font-stack-roman: AvenirRoman, Helvetica, sans-serif;
+
+// customize bootstrap entities
+label {
+    font-weight : normal;
+}
+
+// standard sizes
+$peaxy-font-verysmall-size: 10px;
+$peaxy-font-small-size: 12px;
+$peaxy-font-medium-size: 14px;
+$peaxy-font-large-size: 16px;
+$peaxy-font-title-size : 18px;
+$peaxy-font-verylarge-size: 20px;
+$peaxy-font-ultralarge-size: 24px;
+$peaxy-font-ultra-ultralarge-size: 38px;
+
+.peaxy-font-small, .label-small {
+    font-size : $peaxy-font-small-size;
+}
+.peaxy-font-medium {
+    font-size : $peaxy-font-medium-size;
+}
+.peaxy-font-large {
+    font-size : $peaxy-font-large-size;
+}
+.peaxy-font-larger {
+    font-size : $peaxy-font-title-size;
+}
+.peaxy-font-verylarge {
+    font-size : $peaxy-font-verylarge-size;
+}
+.peaxy-font-ultralarge-size {
+    font-weight : bold;
+    font-size   : $peaxy-font-ultralarge-size;
+}
+.peaxy-font-ultra-ultralarge-size {
+    font-weight : bold;
+    font-size   : $peaxy-font-ultra-ultralarge-size;
+}
+
+// font styling
+.peaxy-italic {
+    font-style : italic;
+}
+.peaxy-bold {
+    font-style : bold;
+}
+.peaxy-upper-case {
+    text-transform : uppercase;
+}
+
+.peaxy-desc-large {
+    font-size : $peaxy-font-large-size;
+}

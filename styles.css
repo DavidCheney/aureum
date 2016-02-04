@@ -1,7 +1,51 @@
-body { margin: 0; background-color: #EEEEEE; }
 
-body, input[text], button { color: #888; font-family: Cambria, Georgia; }
+@font-face {
+    font-family: 'Avenir';
+    src: url('/assets/AvenirLTStd-Light.eot');
+    src: url('/assets/AvenirLTStd-Light.eot?#iefix') format('embedded-opentype'),
+    url('/assets/AvenirLTStd-Light.woff') format('woff'),
+    url('/assets/AvenirLTStd-Light.ttf') format('truetype'),
+    url('/assets/AvenirLTStd-Light.svg#AvenirLTStd-Light') format('svg');
+}
+@font-face {
+    font-family: 'AvenirRoman';
+    src: url('/assets/AvenirLTStd-Roman.eot');
+    src: url('/assets/AvenirLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+    url('/assets/AvenirLTStd-Roman.woff') format('woff'),
+    url('/assets/AvenirLTStd-Roman.ttf') format('truetype'),
+    url('/assets/AvenirLTStd-Roman.svg#AvenirLTStd-Roman') format('svg');
+}
+
+body { margin: 0; background-color: #EEEEEE; }
 
 button { padding: 0.2em; font-size: 14px}
 
-* { font-family: Arial; }
+* { font-family: AvenirRoman, Helvetica, sans-serif; }
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.p-primary-icons {
+    background: url('/assets/logo.png');
+}
+
+.p-secondary-icons {
+    background: url('/assets/secondary_icons_sprite_051013.png');
+}
+
+.p-primary-icons, .p-secondary-icons, .p-level-icons, .help, .k-i-close {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    text-indent: -3333px;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.p-i-Support, .p-i-support, .help{ background-position:-5px -452px;}
+
+.margin-left-1 {
+    margin-left: 1em;
+}
